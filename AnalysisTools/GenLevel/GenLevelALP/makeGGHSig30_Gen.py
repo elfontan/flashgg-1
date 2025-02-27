@@ -57,8 +57,8 @@ for i,event in enumerate(eventsggh):
   event.getByLabel(genLabel, gen)
 
   if (gen.product().weight() > 0.0): w = 1.0
-  elif (gen.product().weight() < 0.0): w = 1.0
-  #elif (gen.product().weight() < 0.0): w = -1.0
+  #elif (gen.product().weight() < 0.0): w = 1.0
+  elif (gen.product().weight() < 0.0): w = -1.0
   pruned = handlePruned.product()
 
   npho=0;
@@ -100,16 +100,16 @@ for i,event in enumerate(eventsggh):
         genleadetagghacc.Fill(photons[0][1].Eta(),w)
         gensubleadetagghacc.Fill(photons[1][1].Eta(),w)
 
-genleadetaggh.SaveAs("Plots/LeadEta/gen_ggh30_noWeights.root")
-gensubleadetaggh.SaveAs("Plots/SubleadEta/gen_ggh30_noWeights.root")
-genleadptggh.SaveAs("Plots/LeadPT/gen_ggh30_noWeights.root")
-gensubleadptggh.SaveAs("Plots/SubleadPT/gen_ggh30_noWeights.root")
-gendiphotonptggh.SaveAs("Plots/DiphotonPT/gen_ggh30_noWeights.root")
-gendrggh.SaveAs("Plots/DR/gen_ggh30_noWeights.root")
+genleadetaggh.SaveAs("Plots/LeadEta/gen_ggh30.root")
+gensubleadetaggh.SaveAs("Plots/SubleadEta/gen_ggh30.root")
+genleadptggh.SaveAs("Plots/LeadPT/gen_ggh30.root")
+gensubleadptggh.SaveAs("Plots/SubleadPT/gen_ggh30.root")
+gendiphotonptggh.SaveAs("Plots/DiphotonPT/gen_ggh30.root")
+gendrggh.SaveAs("Plots/DR/gen_ggh30.root")
 
-genleadetagghacc.SaveAs("Plots/LeadEta/gen_ggh30acc_noWeights.root")
-gensubleadetagghacc.SaveAs("Plots/SubleadEta/gen_ggh30acc_noWeights.root")
-genleadptgghacc.SaveAs("Plots/LeadPT/gen_ggh30acc_noWeights.root")
-gensubleadptgghacc.SaveAs("Plots/SubleadPT/gen_ggh30acc_noWeights.root")
-gendiphotonptgghacc.SaveAs("Plots/DiphotonPT/gen_ggh30acc_noWeights.root")
-gendrgghacc.SaveAs("Plots/DR/gen_ggh30acc_noWeights.root")
+genleadetagghacc.SaveAs("Plots/LeadEta/gen_ggh30acc.root")
+gensubleadetagghacc.SaveAs("Plots/SubleadEta/gen_ggh30acc.root")
+genleadptgghacc.SaveAs("Plots/LeadPT/gen_ggh30acc.root")
+gensubleadptgghacc.SaveAs("Plots/SubleadPT/gen_ggh30acc.root")
+gendiphotonptgghacc.SaveAs("Plots/DiphotonPT/gen_ggh30acc.root")
+gendrgghacc.SaveAs("Plots/DR/gen_ggh30acc.root")
