@@ -2,8 +2,8 @@
 # Use this script within an environment allowing python: #
 # ------------------------------------------------------ #
 # python3 plot_NNScore.py --o /eos/user/e/elfontan/www/Hgg_veryLowMass_Paper/
-from ROOT import TFile, TTree, TBranch, TList, gROOT, gSystem, TChain, TH1F, TCanvas, TLegend, TProfile
-from ROOT import kBlack, kRed, kPink, kMagenta, kViolet, kBlue, kAzure, kCyan, kTeal, kGreen, kSpring, kYellow, kOrange
+from ROOT import TFile, TTree, TBranch, TList, gROOT, gSystem, TChain, TH1F, TCanvas, TLegend, TProfile, TPaveText
+from ROOT import kBlack, kRed, kPink, kMagenta, kViolet, kBlue, kAzure, kCyan, kTeal, kGreen, kSpring, kYellow, kOrange, kWhite, kGray
 import random, copy
 import ROOT, array, CMSGraphics, CMS_lumi
 import argparse
@@ -33,7 +33,7 @@ col_list = [kBlue, kAzure + 7, kCyan - 3, kTeal - 7, kOrange - 3, kPink - 6, kMa
 #col_list = [kSpring - 7,kBlue, kOrange + 7, kAzure + 7, kCyan + 3, kCyan - 3, kTeal - 7, kGreen - 6, kOrange - 3, kPink - 6, kMagenta - 7, kViolet + 6,kRed - 3, kPink - 6, kMagenta - 7, kViolet + 6,kRed - 3]
 
 
-canvas = TCanvas("canvas", "canvas", 1400, 1000)
+canvas = TCanvas("canvas", "canvas", 1600, 1000)
 canvas.SetLogy()
 canvas.SetBottomMargin(0.12)
 canvas.SetLeftMargin(0.12)
@@ -53,14 +53,34 @@ h_nnScore_data.SetMarkerColor(kBlack)
 h_nnScore_data.SetMarkerStyle(20)
 h_nnScore_data.SetMarkerSize(1.1)
 h_nnScore_data.SetMinimum(10)
-h_nnScore_data.SetMaximum(200.0*h_nnScore_data.GetMaximum())
+h_nnScore_data.SetMaximum(700.0*h_nnScore_data.GetMaximum())
 h_nnScore_data.Draw("EPX")
 
-legend = TLegend(0.55, 0.65, 0.88, 0.88)
+lat0 = ROOT.TLatex()
+lat0.SetTextFont(42)
+lat0.SetTextAlign(11)
+lat0.SetNDC()
+lat0.SetTextSize(0.048)
+lat0.DrawLatex(0.18,0.72,"gg#phi, #phi #rightarrow #gamma#gamma")
+
+
+header = TPaveText(0.48, 0.8, 0.88, 0.88, "NDC")  # Position above legend
+header.SetFillColor(kGray)  
+#header.SetTextFont(62)  # Bold font
+header.SetTextSize(0.048) 
+#header.SetBorderSize(0)
+header.SetTextAlign(22)  
+header.AddText("gg#phi, #phi #rightarrow #gamma#gamma")  # Title text
+
+#legend = TLegend(0.48, 0.6, 0.88, 0.78)
+legend = TLegend(0.48, 0.65, 0.88, 0.83) 
 legend.SetBorderSize(0)
 legend.SetNColumns(2)
+#legend.SetTextSize(0.035)  
+#legend.SetTextFont(42)  
+#legend.SetHeader("gg#phi, #phi #rightarrow #gamma#gamma")
+
 legend.AddEntry(h_nnScore_data, "Data", "EPX")
-#legend.AddEntry(h_nnScore_data, "SR Data (10%)", "EPX")
 
 
 idx = 0
@@ -76,7 +96,8 @@ for mass in masses:
     h.Scale(10000)
     h.Draw("hist same")
     canvas.Update()
-    legend.AddEntry(h, "gg#phi ("+str(mass)+")", "l")
+    #legend.AddEntry(h, "gg#phi ("+str(mass)+")", "l")
+    legend.AddEntry(h, "m_{#phi} = "+str(mass)+" GeV", "l")
     #legend.AddEntry(h, "m = "+str(mass)+" GeV", "l")
     #legend.AddEntry(h, "#it{m}_{#gamma#gamma} = "+str(mass)+" GeV", "l")
 
@@ -96,6 +117,7 @@ for mass in masses:
     mass_medians.append((mass, median))
     idx += 1
 
+#header.Draw()
 legend.Draw()
 
 #cmsTag=ROOT.TLatex()                                                                                                                                                                                              
@@ -108,12 +130,10 @@ cmsTag2.SetNDC()
 cmsTag2.SetTextAlign(11)                                                                                               
 cmsTag2.SetTextFont(52)                                                                                                    
 cmsTag2.SetTextSize(0.06)                                                                    
-#cmsTag2.DrawLatexNDC(0.27, 0.83, "Work in progress")
-cmsTag2.DrawLatexNDC(0.255, 0.82, "Preliminary")
-#cmsTag2.DrawLatexNDC(0.269, 0.82945, "Preliminary")
+#cmsTag2.DrawLatexNDC(0.2535, 0.82, "Preliminary")
 
 # Draw SR line:
-line1 = ROOT.TLine(0.8, 10, 0.8, 250000)
+line1 = ROOT.TLine(0.8, 10, 0.8, 240000)
 line1.SetLineColor(ROOT.kGray+2)                                                                                                                                         
 line1.SetLineStyle(7)                                                                                                                                                       
 line1.SetLineWidth(3)                                                                                                        
@@ -133,16 +153,16 @@ CMS_lumi.writeExtraText = False
 CMS_lumi.extraText      = ""
 #CMS_lumi.lumi_sqrtS     = "2018 (13 TeV)"
 CMS_lumi.lumi_sqrtS     = "54.4 fb^{-1} (13 TeV)"
-CMS_lumi.cmsTextSize    = 0.65
-CMS_lumi.lumiTextSize   = 0.5
+CMS_lumi.cmsTextSize    = 0.7
+CMS_lumi.lumiTextSize   = 0.55
 CMS_lumi.extraOverCmsTextSize = 0.75
-CMS_lumi.relPosX = 0.045
+CMS_lumi.relPosX = 0.09
 CMS_lumi.CMS_lumi(canvas, 0, 11)
 canvas.Update()
 
 canvas.Draw()
-canvas.SaveAs(outdir+"/nnScore_allSig_data_paperDraft_ARC.png")
-canvas.SaveAs(outdir+"/nnScore_allSig_data_paperDraft_ARC.pdf")
+canvas.SaveAs(outdir+"/nnScore_allSig_data_paperDraft_CWR.png")
+canvas.SaveAs(outdir+"/nnScore_allSig_data_paperDraft_CWR.pdf")
 
 
 ############################
