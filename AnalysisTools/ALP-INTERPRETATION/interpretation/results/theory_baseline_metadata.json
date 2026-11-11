@@ -1,0 +1,14 @@
+{
+  "description": "Newer study supplied by the user; one additional jet, after jet matching.",
+  "source": "User-supplied cross sections and scenario clarification in this conversation.",
+  "pdf_set": "NNPDF31_nnlo_as_0118_nf_4_mc_hessian",
+  "pdf_id": 325500,
+  "additional_jets": 1,
+  "jet_matching": "after matching",
+  "quantity": "LO cross section times diphoton branching fraction",
+  "units": "pb",
+  "fa_reference_TeV": 1.0,
+  "c1": 10,
+  "c2": 10,
+  "c3": 10
+}

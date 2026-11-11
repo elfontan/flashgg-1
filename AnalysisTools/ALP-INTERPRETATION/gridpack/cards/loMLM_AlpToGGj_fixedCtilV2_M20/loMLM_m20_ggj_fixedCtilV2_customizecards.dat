@@ -1,0 +1,13 @@
+set    fa 1000
+set    cBtil 0.01349156
+set    cWtil 0.02694808
+set    cGtil 0.093949
+set    CaPhi 0
+set    mass 9000005 2.000000e+01 
+set    decay walp auto
+set    ptj 0.0
+set    pta 0.0
+set    draa 0.05
+set    draj 0.05
+set    xqcut 10.0
+set    ickkw 1

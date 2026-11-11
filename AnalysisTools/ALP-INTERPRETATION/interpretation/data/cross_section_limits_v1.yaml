@@ -1,0 +1,1574 @@
+dependent_variables:
+- header:
+    name: Obs limit
+    units: pb
+  values:
+  - value: 2.9671
+  - value: 2.5946
+  - value: 2.6337
+  - value: 2.3552
+  - value: 1.0419
+  - value: 0.9464
+  - value: 1.3291
+  - value: 1.5676
+  - value: 1.196
+  - value: 0.62343
+  - value: 0.58013
+  - value: 0.60888
+  - value: 0.84139
+  - value: 0.86445
+  - value: 0.79021
+  - value: 0.70549
+  - value: 1.0697
+  - value: 2.1622
+  - value: 2.1609
+  - value: 1.3106
+  - value: 0.66001
+  - value: 0.54116
+  - value: 0.59764
+  - value: 0.54691
+  - value: 0.48286
+  - value: 0.48575
+  - value: 0.73783
+  - value: 0.7476
+  - value: 0.63342
+  - value: 0.59437
+  - value: 0.49102
+  - value: 0.32474
+  - value: 0.33908
+  - value: 0.6014
+  - value: 0.69188
+  - value: 0.60948
+  - value: 0.44085
+  - value: 0.28307
+  - value: 0.26421
+  - value: 0.62583
+  - value: 0.42427
+  - value: 0.3324
+  - value: 0.5065
+  - value: 0.62256
+  - value: 0.59543
+  - value: 0.35755
+  - value: 0.31499
+  - value: 0.34194
+  - value: 0.26997
+  - value: 0.22399
+  - value: 0.24742
+  - value: 0.30501
+  - value: 0.4511
+  - value: 0.51364
+  - value: 0.455
+  - value: 0.43354
+  - value: 0.22276
+  - value: 0.23797
+  - value: 0.33358
+  - value: 0.42474
+  - value: 0.46114
+  - value: 0.38517
+  - value: 0.28948
+  - value: 0.30091
+  - value: 0.30196
+  - value: 0.39117
+  - value: 0.46343
+  - value: 0.40844
+  - value: 0.27233
+  - value: 0.14651
+  - value: 0.12045
+  - value: 0.15279
+  - value: 0.19026
+  - value: 0.18022
+  - value: 0.22668
+  - value: 0.22033
+  - value: 0.21541
+  - value: 0.26735
+  - value: 0.21467
+  - value: 0.31881
+  - value: 0.30423
+  - value: 0.25435
+  - value: 0.19859
+  - value: 0.19173
+  - value: 0.1448
+  - value: 0.1045
+  - value: 0.17635
+  - value: 0.26277
+  - value: 0.18599
+  - value: 0.38004
+  - value: 0.35217
+  - value: 0.1685
+  - value: 0.16765
+  - value: 0.16164
+  - value: 0.10927
+  - value: 0.081962
+  - value: 0.09246
+  - value: 0.1541
+  - value: 0.29944
+  - value: 0.46802
+  - value: 0.42607
+  - value: 0.27457
+  - value: 0.20355
+  - value: 0.19631
+  - value: 0.21215
+  - value: 0.15952
+  - value: 0.19112
+  - value: 0.19542
+  - value: 0.13188
+  - value: 0.096524
+  - value: 0.083034
+  - value: 0.12887
+  - value: 0.17671
+  - value: 0.20485
+  - value: 0.2933
+  - value: 0.29062
+  - value: 0.26432
+  - value: 0.15742
+  - value: 0.089565
+  - value: 0.095023
+  - value: 0.13645
+  - value: 0.13373
+  - value: 0.24573
+  - value: 0.2833
+  - value: 0.26964
+  - value: 0.23905
+  - value: 0.13985
+  - value: 0.1219
+  - value: 0.084986
+  - value: 0.095641
+- header:
+    name: Exp limit
+    units: pb
+  values:
+  - errors:
+    - asymerror:
+        minus: 0.86307
+        plus: -0.64957
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.9687
+        plus: -0.97818
+      label: "2\u03C3"
+    value: 1.8828
+  - errors:
+    - asymerror:
+        minus: 0.94119
+        plus: -0.57145
+      label: "1\u03C3"
+    - asymerror:
+        minus: 2.0469
+        plus: -0.90005
+      label: "2\u03C3"
+    value: 1.8047
+  - errors:
+    - asymerror:
+        minus: 0.94631
+        plus: -0.46905
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.9691
+        plus: -0.81107
+      label: "2\u03C3"
+    value: 1.6641
+  - errors:
+    - asymerror:
+        minus: 0.85419
+        plus: -0.49598
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.8265
+        plus: -0.78641
+      label: "2\u03C3"
+    value: 1.5859
+  - errors:
+    - asymerror:
+        minus: 0.93196
+        plus: -0.35289
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.8733
+        plus: -0.63187
+      label: "2\u03C3"
+    value: 1.4062
+  - errors:
+    - asymerror:
+        minus: 0.80563
+        plus: -0.33197
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.7076
+        plus: -0.5874
+      label: "2\u03C3"
+    value: 1.3125
+  - errors:
+    - asymerror:
+        minus: 0.67976
+        plus: -0.31425
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.4992
+        plus: -0.55762
+      label: "2\u03C3"
+    value: 1.2344
+  - errors:
+    - asymerror:
+        minus: 0.62342
+        plus: -0.30817
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.3731
+        plus: -0.53058
+      label: "2\u03C3"
+    value: 1.1719
+  - errors:
+    - asymerror:
+        minus: 0.57939
+        plus: -0.30217
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.2838
+        plus: -0.5116
+      label: "2\u03C3"
+    value: 1.125
+  - errors:
+    - asymerror:
+        minus: 0.54189
+        plus: -0.29574
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.2198
+        plus: -0.50098
+      label: "2\u03C3"
+    value: 1.0898
+  - errors:
+    - asymerror:
+        minus: 0.51823
+        plus: -0.29461
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.1615
+        plus: -0.48778
+      label: "2\u03C3"
+    value: 1.0625
+  - errors:
+    - asymerror:
+        minus: 0.50168
+        plus: -0.28261
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.1303
+        plus: -0.47485
+      label: "2\u03C3"
+    value: 1.0352
+  - errors:
+    - asymerror:
+        minus: 0.48969
+        plus: -0.27604
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.1006
+        plus: -0.46179
+      label: "2\u03C3"
+    value: 1.0117
+  - errors:
+    - asymerror:
+        minus: 0.47888
+        plus: -0.26145
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.079
+        plus: -0.44299
+      label: "2\u03C3"
+    value: 0.98047
+  - errors:
+    - asymerror:
+        minus: 0.46897
+        plus: -0.25241
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.0491
+        plus: -0.42834
+      label: "2\u03C3"
+    value: 0.94922
+  - errors:
+    - asymerror:
+        minus: 0.45904
+        plus: -0.23903
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.0221
+        plus: -0.40588
+      label: "2\u03C3"
+    value: 0.91016
+  - errors:
+    - asymerror:
+        minus: 0.44177
+        plus: -0.22758
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.98163
+        plus: -0.38757
+      label: "2\u03C3"
+    value: 0.87109
+  - errors:
+    - asymerror:
+        minus: 0.42448
+        plus: -0.21827
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.94118
+        plus: -0.37267
+      label: "2\u03C3"
+    value: 0.83203
+  - errors:
+    - asymerror:
+        minus: 0.41442
+        plus: -0.19975
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.90672
+        plus: -0.3503
+      label: "2\u03C3"
+    value: 0.78906
+  - errors:
+    - asymerror:
+        minus: 0.37299
+        plus: -0.21745
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.8485
+        plus: -0.35846
+      label: "2\u03C3"
+    value: 0.77148
+  - errors:
+    - asymerror:
+        minus: 0.35726
+        plus: -0.21901
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.82217
+        plus: -0.36091
+      label: "2\u03C3"
+    value: 0.76172
+  - errors:
+    - asymerror:
+        minus: 0.32573
+        plus: -0.25115
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.79187
+        plus: -0.3924
+      label: "2\u03C3"
+    value: 0.78516
+  - errors:
+    - asymerror:
+        minus: 0.33729
+        plus: -0.30228
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.82587
+        plus: -0.44336
+      label: "2\u03C3"
+    value: 0.83594
+  - errors:
+    - asymerror:
+        minus: 0.58608
+        plus: -0.068136
+      label: "1\u03C3"
+    - asymerror:
+        minus: 1.0599
+        plus: -0.2312
+      label: "2\u03C3"
+    value: 0.62305
+  - errors:
+    - asymerror:
+        minus: 0.30017
+        plus: -0.16604
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.67562
+        plus: -0.27739
+      label: "2\u03C3"
+    value: 0.60352
+  - errors:
+    - asymerror:
+        minus: 0.28746
+        plus: -0.16266
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.65116
+        plus: -0.26963
+      label: "2\u03C3"
+    value: 0.58789
+  - errors:
+    - asymerror:
+        minus: 0.28824
+        plus: -0.15023
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.64252
+        plus: -0.25443
+      label: "2\u03C3"
+    value: 0.56445
+  - errors:
+    - asymerror:
+        minus: 0.26596
+        plus: -0.15566
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.60612
+        plus: -0.25948
+      label: "2\u03C3"
+    value: 0.55273
+  - errors:
+    - asymerror:
+        minus: 0.26264
+        plus: -0.15096
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.59573
+        plus: -0.24974
+      label: "2\u03C3"
+    value: 0.53906
+  - errors:
+    - asymerror:
+        minus: 0.25257
+        plus: -0.14879
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.57742
+        plus: -0.24713
+      label: "2\u03C3"
+    value: 0.5293
+  - errors:
+    - asymerror:
+        minus: 0.25403
+        plus: -0.14203
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.56971
+        plus: -0.23662
+      label: "2\u03C3"
+    value: 0.51367
+  - errors:
+    - asymerror:
+        minus: 0.23918
+        plus: -0.14327
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.54873
+        plus: -0.23698
+      label: "2\u03C3"
+    value: 0.50586
+  - errors:
+    - asymerror:
+        minus: 0.23963
+        plus: -0.13902
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.54372
+        plus: -0.23131
+      label: "2\u03C3"
+    value: 0.49609
+  - errors:
+    - asymerror:
+        minus: 0.23322
+        plus: -0.138
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.53217
+        plus: -0.22665
+      label: "2\u03C3"
+    value: 0.48633
+  - errors:
+    - asymerror:
+        minus: 0.22491
+        plus: -0.13718
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.51799
+        plus: -0.22591
+      label: "2\u03C3"
+    value: 0.48047
+  - errors:
+    - asymerror:
+        minus: 0.22618
+        plus: -0.13155
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.51572
+        plus: -0.21921
+      label: "2\u03C3"
+    value: 0.4707
+  - errors:
+    - asymerror:
+        minus: 0.21788
+        plus: -0.13434
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.50153
+        plus: -0.21846
+      label: "2\u03C3"
+    value: 0.46484
+  - errors:
+    - asymerror:
+        minus: 0.21914
+        plus: -0.12696
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.49927
+        plus: -0.21176
+      label: "2\u03C3"
+    value: 0.45508
+  - errors:
+    - asymerror:
+        minus: 0.21084
+        plus: -0.12969
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.48508
+        plus: -0.21101
+      label: "2\u03C3"
+    value: 0.44922
+  - errors:
+    - asymerror:
+        minus: 0.2121
+        plus: -0.12236
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.48281
+        plus: -0.20432
+      label: "2\u03C3"
+    value: 0.43945
+  - errors:
+    - asymerror:
+        minus: 0.2036
+        plus: -0.12699
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.46776
+        plus: -0.20552
+      label: "2\u03C3"
+    value: 0.43555
+  - errors:
+    - asymerror:
+        minus: 0.20595
+        plus: -0.11996
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.46842
+        plus: -0.1978
+      label: "2\u03C3"
+    value: 0.42578
+  - errors:
+    - asymerror:
+        minus: 0.19764
+        plus: -0.1204
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.45423
+        plus: -0.19871
+      label: "2\u03C3"
+    value: 0.41992
+  - errors:
+    - asymerror:
+        minus: 0.19891
+        plus: -0.11375
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.45196
+        plus: -0.19035
+      label: "2\u03C3"
+    value: 0.41016
+  - errors:
+    - asymerror:
+        minus: 0.19224
+        plus: -0.11631
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.43879
+        plus: -0.18961
+      label: "2\u03C3"
+    value: 0.4043
+  - errors:
+    - asymerror:
+        minus: 0.18992
+        plus: -0.1111
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.43356
+        plus: -0.18486
+      label: "2\u03C3"
+    value: 0.39648
+  - errors:
+    - asymerror:
+        minus: 0.1864
+        plus: -0.11125
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.42533
+        plus: -0.18269
+      label: "2\u03C3"
+    value: 0.38867
+  - errors:
+    - asymerror:
+        minus: 0.18483
+        plus: -0.10455
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.41906
+        plus: -0.17546
+      label: "2\u03C3"
+    value: 0.37891
+  - errors:
+    - asymerror:
+        minus: 0.17946
+        plus: -0.10407
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.40779
+        plus: -0.17178
+      label: "2\u03C3"
+    value: 0.37012
+  - errors:
+    - asymerror:
+        minus: 0.17452
+        plus: -0.10243
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.39756
+        plus: -0.16857
+      label: "2\u03C3"
+    value: 0.3623
+  - errors:
+    - asymerror:
+        minus: 0.1744
+        plus: -0.096798
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.39219
+        plus: -0.1629
+      label: "2\u03C3"
+    value: 0.35254
+  - errors:
+    - asymerror:
+        minus: 0.16563
+        plus: -0.098168
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.37808
+        plus: -0.16117
+      label: "2\u03C3"
+    value: 0.3457
+  - errors:
+    - asymerror:
+        minus: 0.16548
+        plus: -0.093202
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.37381
+        plus: -0.15498
+      label: "2\u03C3"
+    value: 0.33594
+  - errors:
+    - asymerror:
+        minus: 0.15815
+        plus: -0.091973
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.36059
+        plus: -0.15326
+      label: "2\u03C3"
+    value: 0.3291
+  - errors:
+    - asymerror:
+        minus: 0.15702
+        plus: -0.089234
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.35535
+        plus: -0.14805
+      label: "2\u03C3"
+    value: 0.32031
+  - errors:
+    - asymerror:
+        minus: 0.15014
+        plus: -0.089546
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.34316
+        plus: -0.14679
+      label: "2\u03C3"
+    value: 0.31445
+  - errors:
+    - asymerror:
+        minus: 0.14945
+        plus: -0.084677
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.33895
+        plus: -0.14204
+      label: "2\u03C3"
+    value: 0.30664
+  - errors:
+    - asymerror:
+        minus: 0.14593
+        plus: -0.083521
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.33072
+        plus: -0.13832
+      label: "2\u03C3"
+    value: 0.29883
+  - errors:
+    - asymerror:
+        minus: 0.14046
+        plus: -0.082035
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.32054
+        plus: -0.13655
+      label: "2\u03C3"
+    value: 0.29297
+  - errors:
+    - asymerror:
+        minus: 0.1388
+        plus: -0.080425
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.31535
+        plus: -0.13278
+      label: "2\u03C3"
+    value: 0.28613
+  - errors:
+    - asymerror:
+        minus: 0.13588
+        plus: -0.079365
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.30788
+        plus: -0.1305
+      label: "2\u03C3"
+    value: 0.28027
+  - errors:
+    - asymerror:
+        minus: 0.1321
+        plus: -0.07762
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.301
+        plus: -0.12771
+      label: "2\u03C3"
+    value: 0.27441
+  - errors:
+    - asymerror:
+        minus: 0.12958
+        plus: -0.07583
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.29453
+        plus: -0.12589
+      label: "2\u03C3"
+    value: 0.26953
+  - errors:
+    - asymerror:
+        minus: 0.12736
+        plus: -0.074394
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.28938
+        plus: -0.12357
+      label: "2\u03C3"
+    value: 0.26465
+  - errors:
+    - asymerror:
+        minus: 0.12416
+        plus: -0.073934
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.28325
+        plus: -0.12222
+      label: "2\u03C3"
+    value: 0.26074
+  - errors:
+    - asymerror:
+        minus: 0.12239
+        plus: -0.072785
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.27913
+        plus: -0.12035
+      label: "2\u03C3"
+    value: 0.25684
+  - errors:
+    - asymerror:
+        minus: 0.11964
+        plus: -0.072613
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.27403
+        plus: -0.11947
+      label: "2\u03C3"
+    value: 0.25391
+  - errors:
+    - asymerror:
+        minus: 0.11925
+        plus: -0.070743
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.27226
+        plus: -0.11612
+      label: "2\u03C3"
+    value: 0.24902
+  - errors:
+    - asymerror:
+        minus: 0.11511
+        plus: -0.071291
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.2648
+        plus: -0.11672
+      label: "2\u03C3"
+    value: 0.24707
+  - errors:
+    - asymerror:
+        minus: 0.11422
+        plus: -0.070661
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.26311
+        plus: -0.11481
+      label: "2\u03C3"
+    value: 0.24414
+  - errors:
+    - asymerror:
+        minus: 0.11192
+        plus: -0.070765
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.25904
+        plus: -0.1144
+      label: "2\u03C3"
+    value: 0.24219
+  - errors:
+    - asymerror:
+        minus: 0.11104
+        plus: -0.070182
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.25699
+        plus: -0.11346
+      label: "2\u03C3"
+    value: 0.24023
+  - errors:
+    - asymerror:
+        minus: 0.11114
+        plus: -0.068625
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.25591
+        plus: -0.11156
+      label: "2\u03C3"
+    value: 0.2373
+  - errors:
+    - asymerror:
+        minus: 0.10881
+        plus: -0.068821
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.25146
+        plus: -0.11211
+      label: "2\u03C3"
+    value: 0.23633
+  - errors:
+    - asymerror:
+        minus: 0.10742
+        plus: -0.069415
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.24984
+        plus: -0.11165
+      label: "2\u03C3"
+    value: 0.23535
+  - errors:
+    - asymerror:
+        minus: 0.10894
+        plus: -0.06717
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.2493
+        plus: -0.10923
+      label: "2\u03C3"
+    value: 0.23242
+  - errors:
+    - asymerror:
+        minus: 0.10659
+        plus: -0.067385
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.2463
+        plus: -0.10979
+      label: "2\u03C3"
+    value: 0.23145
+  - errors:
+    - asymerror:
+        minus: 0.1062
+        plus: -0.066983
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.24568
+        plus: -0.10835
+      label: "2\u03C3"
+    value: 0.22949
+  - errors:
+    - asymerror:
+        minus: 0.10624
+        plus: -0.065547
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.24419
+        plus: -0.10741
+      label: "2\u03C3"
+    value: 0.22754
+  - errors:
+    - asymerror:
+        minus: 0.10444
+        plus: -0.064973
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.24156
+        plus: -0.10648
+      label: "2\u03C3"
+    value: 0.22559
+  - errors:
+    - asymerror:
+        minus: 0.10356
+        plus: -0.064398
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.23951
+        plus: -0.10555
+      label: "2\u03C3"
+    value: 0.22363
+  - errors:
+    - asymerror:
+        minus: 0.10374
+        plus: -0.062704
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.23885
+        plus: -0.10267
+      label: "2\u03C3"
+    value: 0.21973
+  - errors:
+    - asymerror:
+        minus: 0.10092
+        plus: -0.062674
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.23334
+        plus: -0.10276
+      label: "2\u03C3"
+    value: 0.21777
+  - errors:
+    - asymerror:
+        minus: 0.10211
+        plus: -0.059982
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.23231
+        plus: -0.0989
+      label: "2\u03C3"
+    value: 0.21289
+  - errors:
+    - asymerror:
+        minus: 0.09882
+        plus: -0.059688
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.22711
+        plus: -0.098526
+      label: "2\u03C3"
+    value: 0.20996
+  - errors:
+    - asymerror:
+        minus: 0.09764
+        plus: -0.058631
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.2271
+        plus: -0.096154
+      label: "2\u03C3"
+    value: 0.20605
+  - errors:
+    - asymerror:
+        minus: 0.096718
+        plus: -0.0567
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.22857
+        plus: -0.094291
+      label: "2\u03C3"
+    value: 0.20215
+  - errors:
+    - asymerror:
+        minus: 0.093811
+        plus: -0.057504
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.22409
+        plus: -0.094383
+      label: "2\u03C3"
+    value: 0.2002
+  - errors:
+    - asymerror:
+        minus: 0.092126
+        plus: -0.057675
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.21899
+        plus: -0.093452
+      label: "2\u03C3"
+    value: 0.19824
+  - errors:
+    - asymerror:
+        minus: 0.089479
+        plus: -0.058071
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.20924
+        plus: -0.093499
+      label: "2\u03C3"
+    value: 0.19727
+  - errors:
+    - asymerror:
+        minus: 0.083971
+        plus: -0.063271
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.20162
+        plus: -0.098892
+      label: "2\u03C3"
+    value: 0.20215
+  - errors:
+    - asymerror:
+        minus: 0.090247
+        plus: -0.059457
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.20985
+        plus: -0.096336
+      label: "2\u03C3"
+    value: 0.20215
+  - errors:
+    - asymerror:
+        minus: 0.089441
+        plus: -0.06021
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.20935
+        plus: -0.096336
+      label: "2\u03C3"
+    value: 0.20215
+  - errors:
+    - asymerror:
+        minus: 0.091053
+        plus: -0.06021
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.21162
+        plus: -0.096336
+      label: "2\u03C3"
+    value: 0.20215
+  - errors:
+    - asymerror:
+        minus: 0.093006
+        plus: -0.057504
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.21482
+        plus: -0.094383
+      label: "2\u03C3"
+    value: 0.2002
+  - errors:
+    - asymerror:
+        minus: 0.090971
+        plus: -0.058883
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.21131
+        plus: -0.095405
+      label: "2\u03C3"
+    value: 0.2002
+  - errors:
+    - asymerror:
+        minus: 0.093281
+        plus: -0.055459
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.21173
+        plus: -0.092281
+      label: "2\u03C3"
+    value: 0.19629
+  - errors:
+    - asymerror:
+        minus: 0.094467
+        plus: -0.052108
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.21183
+        plus: -0.087475
+      label: "2\u03C3"
+    value: 0.18945
+  - errors:
+    - asymerror:
+        minus: 0.090483
+        plus: -0.052243
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.20437
+        plus: -0.087372
+      label: "2\u03C3"
+    value: 0.18506
+  - errors:
+    - asymerror:
+        minus: 0.091905
+        plus: -0.047065
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.20315
+        plus: -0.081102
+      label: "2\u03C3"
+    value: 0.17725
+  - errors:
+    - asymerror:
+        minus: 0.084936
+        plus: -0.048594
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.20027
+        plus: -0.081459
+      label: "2\u03C3"
+    value: 0.17285
+  - errors:
+    - asymerror:
+        minus: 0.090893
+        plus: -0.044422
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.2053
+        plus: -0.076214
+      label: "2\u03C3"
+    value: 0.16602
+  - errors:
+    - asymerror:
+        minus: 0.091398
+        plus: -0.04386
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.20298
+        plus: -0.074394
+      label: "2\u03C3"
+    value: 0.16064
+  - errors:
+    - asymerror:
+        minus: 0.086629
+        plus: -0.04656
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.19565
+        plus: -0.076347
+      label: "2\u03C3"
+    value: 0.15918
+  - errors:
+    - asymerror:
+        minus: 0.083315
+        plus: -0.046336
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.18963
+        plus: -0.075016
+      label: "2\u03C3"
+    value: 0.15771
+  - errors:
+    - asymerror:
+        minus: 0.077325
+        plus: -0.047149
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.18145
+        plus: -0.076393
+      label: "2\u03C3"
+    value: 0.15771
+  - errors:
+    - asymerror:
+        minus: 0.068878
+        plus: -0.050567
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.17124
+        plus: -0.079811
+      label: "2\u03C3"
+    value: 0.16113
+  - errors:
+    - asymerror:
+        minus: 0.068003
+        plus: -0.05403
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.16462
+        plus: -0.083908
+      label: "2\u03C3"
+    value: 0.16699
+  - errors:
+    - asymerror:
+        minus: 0.070822
+        plus: -0.053915
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.17146
+        plus: -0.084629
+      label: "2\u03C3"
+    value: 0.17139
+  - errors:
+    - asymerror:
+        minus: 0.073778
+        plus: -0.054241
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.17706
+        plus: -0.085764
+      label: "2\u03C3"
+    value: 0.1748
+  - errors:
+    - asymerror:
+        minus: 0.075527
+        plus: -0.055743
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.1806
+        plus: -0.087894
+      label: "2\u03C3"
+    value: 0.17871
+  - errors:
+    - asymerror:
+        minus: 0.07903
+        plus: -0.05446
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.18673
+        plus: -0.08733
+      label: "2\u03C3"
+    value: 0.18018
+  - errors:
+    - asymerror:
+        minus: 0.085061
+        plus: -0.04976
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.19364
+        plus: -0.081959
+      label: "2\u03C3"
+    value: 0.17627
+  - errors:
+    - asymerror:
+        minus: 0.08092
+        plus: -0.048916
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.18548
+        plus: -0.081074
+      label: "2\u03C3"
+    value: 0.17334
+  - errors:
+    - asymerror:
+        minus: 0.081494
+        plus: -0.048212
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.18595
+        plus: -0.079189
+      label: "2\u03C3"
+    value: 0.16992
+  - errors:
+    - asymerror:
+        minus: 0.080932
+        plus: -0.045994
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.18333
+        plus: -0.077248
+      label: "2\u03C3"
+    value: 0.16553
+  - errors:
+    - asymerror:
+        minus: 0.081882
+        plus: -0.041362
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.18163
+        plus: -0.07156
+      label: "2\u03C3"
+    value: 0.1582
+  - errors:
+    - asymerror:
+        minus: 0.075938
+        plus: -0.043877
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.1708
+        plus: -0.073212
+      label: "2\u03C3"
+    value: 0.15479
+  - errors:
+    - asymerror:
+        minus: 0.076555
+        plus: -0.039064
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.16983
+        plus: -0.067534
+      label: "2\u03C3"
+    value: 0.14795
+  - errors:
+    - asymerror:
+        minus: 0.072113
+        plus: -0.03899
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.16105
+        plus: -0.066202
+      label: "2\u03C3"
+    value: 0.14307
+  - errors:
+    - asymerror:
+        minus: 0.069245
+        plus: -0.040816
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.16228
+        plus: -0.067345
+      label: "2\u03C3"
+    value: 0.14111
+  - errors:
+    - asymerror:
+        minus: 0.072072
+        plus: -0.042674
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.16548
+        plus: -0.06884
+      label: "2\u03C3"
+    value: 0.1416
+  - errors:
+    - asymerror:
+        minus: 0.073864
+        plus: -0.044514
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.16735
+        plus: -0.069759
+      label: "2\u03C3"
+    value: 0.14111
+  - errors:
+    - asymerror:
+        minus: 0.073537
+        plus: -0.045132
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.16695
+        plus: -0.070131
+      label: "2\u03C3"
+    value: 0.14014
+  - errors:
+    - asymerror:
+        minus: 0.069617
+        plus: -0.047329
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.16154
+        plus: -0.07251
+      label: "2\u03C3"
+    value: 0.14258
+  - errors:
+    - asymerror:
+        minus: 0.059906
+        plus: -0.047646
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.15091
+        plus: -0.075058
+      label: "2\u03C3"
+    value: 0.14746
+  - errors:
+    - asymerror:
+        minus: 0.058499
+        plus: -0.046515
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.14126
+        plus: -0.073517
+      label: "2\u03C3"
+    value: 0.15186
+  - errors:
+    - asymerror:
+        minus: 0.060276
+        plus: -0.042311
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.14171
+        plus: -0.068495
+      label: "2\u03C3"
+    value: 0.15332
+  - errors:
+    - asymerror:
+        minus: 0.059526
+        plus: -0.040757
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.13939
+        plus: -0.066257
+      label: "2\u03C3"
+    value: 0.1543
+  - errors:
+    - asymerror:
+        minus: 0.060508
+        plus: -0.037594
+      label: "1\u03C3"
+    - asymerror:
+        minus: 0.13946
+        plus: -0.061821
+      label: "2\u03C3"
+    value: 0.15283
+independent_variables:
+- header:
+    name: Resonance mass
+    units: GeV
+  values:
+  - value: 10.0
+  - value: 10.2
+  - value: 10.4
+  - value: 10.5
+  - value: 10.7
+  - value: 10.9
+  - value: 11.1
+  - value: 11.3
+  - value: 11.5
+  - value: 11.7
+  - value: 11.9
+  - value: 12.1
+  - value: 12.3
+  - value: 12.5
+  - value: 12.7
+  - value: 12.9
+  - value: 13.1
+  - value: 13.3
+  - value: 13.6
+  - value: 13.8
+  - value: 14.0
+  - value: 14.3
+  - value: 14.5
+  - value: 14.7
+  - value: 15.0
+  - value: 15.2
+  - value: 15.5
+  - value: 15.7
+  - value: 16.0
+  - value: 16.2
+  - value: 16.5
+  - value: 16.7
+  - value: 17.0
+  - value: 17.3
+  - value: 17.5
+  - value: 17.8
+  - value: 18.1
+  - value: 18.4
+  - value: 18.7
+  - value: 19.0
+  - value: 19.3
+  - value: 19.6
+  - value: 19.9
+  - value: 20.2
+  - value: 20.5
+  - value: 20.8
+  - value: 21.1
+  - value: 21.5
+  - value: 21.8
+  - value: 22.1
+  - value: 22.5
+  - value: 22.8
+  - value: 23.2
+  - value: 23.5
+  - value: 23.9
+  - value: 24.2
+  - value: 24.6
+  - value: 25.0
+  - value: 25.3
+  - value: 25.7
+  - value: 26.1
+  - value: 26.5
+  - value: 26.9
+  - value: 27.3
+  - value: 27.7
+  - value: 28.1
+  - value: 28.5
+  - value: 29.0
+  - value: 29.4
+  - value: 29.8
+  - value: 30.3
+  - value: 30.7
+  - value: 31.2
+  - value: 31.6
+  - value: 32.1
+  - value: 32.6
+  - value: 33.0
+  - value: 33.5
+  - value: 34.0
+  - value: 34.5
+  - value: 35.0
+  - value: 35.5
+  - value: 36.0
+  - value: 36.6
+  - value: 37.1
+  - value: 37.6
+  - value: 38.2
+  - value: 38.7
+  - value: 39.3
+  - value: 39.9
+  - value: 40.4
+  - value: 41.0
+  - value: 41.6
+  - value: 42.2
+  - value: 42.8
+  - value: 43.4
+  - value: 44.1
+  - value: 44.7
+  - value: 45.3
+  - value: 46.0
+  - value: 46.6
+  - value: 47.3
+  - value: 48.0
+  - value: 48.7
+  - value: 49.3
+  - value: 50.0
+  - value: 50.8
+  - value: 51.5
+  - value: 52.2
+  - value: 52.9
+  - value: 53.7
+  - value: 54.5
+  - value: 55.2
+  - value: 56.0
+  - value: 56.8
+  - value: 57.6
+  - value: 58.4
+  - value: 59.2
+  - value: 60.1
+  - value: 60.9
+  - value: 61.8
+  - value: 62.6
+  - value: 63.5
+  - value: 64.4
+  - value: 65.3
+  - value: 66.2
+  - value: 67.2
+  - value: 68.1
+  - value: 69.0
+  - value: 70.0

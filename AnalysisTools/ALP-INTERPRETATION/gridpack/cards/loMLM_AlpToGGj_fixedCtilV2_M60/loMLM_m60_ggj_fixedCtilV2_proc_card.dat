@@ -1,0 +1,7 @@
+import model axion_UFO
+generate p p > ax > a a
+add process p p > ax j, ax > a a 
+output loMLM_m60_ggj_fixedCtilV2
+shower=Pythia8
+detector=off
+analysis=off
